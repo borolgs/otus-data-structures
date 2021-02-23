@@ -1,0 +1,22 @@
+{
+  "name": "otus-data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:array": "asc assembly/array/index.ts --target debug && node index.js a",
+    "start:queue": "asc assembly/queue/index.ts --target debug && node index.js",
+    "test": "asp --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.18.9",
+    "as-wasi": "^0.4.4",
+    "markdown-table": "^2.0.0"
+  },
+  "devDependencies": {
+    "@as-pect/cli": "^6.0.0",
+    "assemblyscript": "^0.18.9"
+  }
+}
